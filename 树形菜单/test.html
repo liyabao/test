@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <div>
+        <div>
+            <div></div>
+            <div></div>
+        </div>
+        <div>
+            <div></div>
+            <div></div>
+        </div>
+
+    </div> -->
+    <div>
+        <div>
+            <div class="one"><span style="cursor:pointer;"><h1>第一层</h1></span></div>
+            <div class="two"><span style="cursor:pointer;"><h2>第二层</h2></span></div>
+            <div class="three"><span style="cursor:pointer;"><h3>第三层</h3></span></div>
+        </div>
+    </div>
+    <script src="./jquery.min.js"></script>
+    <script>
+        var state="0";
+        $('.three,.two').hide();
+        $('.one').click(function () {
+            if ($('.two').hide())
+            {
+                $('.two').show();
+            }
+            else
+                $('.two').hide();
+        });
+        $('.two').click(function () {
+            $('.three').show();
+        })
+    </script>
+</body>
+
+</html>
