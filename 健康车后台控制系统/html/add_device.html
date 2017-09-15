@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>增加设备</title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			#container{
+				width:700px;
+				height:600px;
+				background: #ccc;
+				margin: 100px auto;
+			}
+			#container h2{
+				font:30px/60px "微软雅黑";
+				color:#000;
+				text-align: center;
+				font-weight: 900;
+				margin-bottom: 15px;
+			}
+			#container div{
+				width:300px;
+				margin: 0 auto;
+			}
+			#container div span{
+				display: inline-block;
+				font:20px/60px "微软雅黑";
+				color:#000;
+			}
+			#container div input{
+				display: inline-block;
+				width:150px;
+				border:none;
+				font:20px/30px "微软雅黑";
+				border-radius: 10px;
+				padding-left: 15px;
+			}
+			#container .device_type select{
+				display: inline-block;
+				width:165px;
+				border:none;
+				font:20px/30px "微软雅黑";
+				border-radius: 10px;
+				padding-left: 15px;
+			}
+			#container .change span:nth-child(1){
+				cursor: pointer;
+				margin-left: 70px;
+			}
+			#container .change span:nth-child(2){
+				cursor: pointer;
+				margin-left: 100px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<h2 class="head">增加设备</h2>
+			<div class="device_name">
+				<span>设备名称：</span>
+				<input type="text" />
+			</div>
+			<div class="UUID">
+				<span style="padding-left:28px;">UUID：</span>
+				<input type="text" />
+			</div>
+			<div class="device_type">
+				<span>设备类型：</span>
+				<select name="" id="">
+					<option value="">健康车</option>
+					<option value="">健康球</option>
+					<option value="">健康箱</option>
+				</select>
+			</div>
+			<div class="change">
+				<span>取消</span>
+				<span>提交</span>
+			</div>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		<script src="../js/jquery.min.js"></script>
+		<script>
+			
+		</script>
+	</body>
+</html>

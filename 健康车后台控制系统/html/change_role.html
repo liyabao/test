@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>用户设备权限修改</title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			#container{
+				width:700px;
+				height:600px;
+				background: #ccc;
+				margin: 100px auto;
+			}
+			#container h2{
+				font:30px/60px "微软雅黑";
+				color:#000;
+				text-align: center;
+				font-weight: 900;
+				margin-bottom: 15px;
+			}
+			#container div{
+				width:300px;
+				margin: 0 auto;
+			}
+			#container div span{
+				display: inline-block;
+				font:20px/60px "微软雅黑";
+				color:#000;
+			}
+			#container div input{
+				display: inline-block;
+				width:150px;
+				border:none;
+				font:20px/30px "微软雅黑";
+				border-radius: 10px;
+				padding-left: 15px;
+			}
+			#container .role select{
+				display: inline-block;
+				width:180px;
+				border:none;
+				font:20px/30px "微软雅黑";
+				border-radius: 10px;
+				padding-left: 15px;
+			}
+			#container .machine{
+				width:100%;
+				margin-left: 100px;
+				height:200px;
+			}
+			#container .machine span{
+				float:left;
+			}
+			#container .machine div{
+				float:left;
+				width:400px;
+				height:200px;
+				border:1px solid #000;
+				margin-top: 22px;
+			}
+			#container .change span:nth-child(1){
+				cursor: pointer;
+				margin-left: 70px;
+			}
+			#container .change span:nth-child(2){
+				cursor: pointer;
+				margin-left: 100px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<h2 class="head">用户设备权限修改</h2>
+			<div class="role">
+				<span>用户角色：</span>
+				<select name="" id="">
+					<option value="">superadmin</option>
+					<option value="">admin</option>
+					<option value="">user</option>
+				</select>
+			</div>
+			<div class="machine">
+				<span>分配设备：</span>
+				<div></div>
+			</div>
+			<div class="change">
+				<span>取消</span>
+				<span>提交</span>
+			</div>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		<script src="../js/jquery.min.js"></script>
+		<script>
+			
+		</script>
+	</body>
+</html>
